@@ -12,12 +12,34 @@
   height: 100px;
   background-color: #253141;
   padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name{
+  color:#FAFAFA;
+  font-size: 16px;
+}
+.create-cat{
+  font-size:10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
 }
 
 .side-bar-main{
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll
+}
+
+.chat-room{
+  color:white;
+  padding: 20px 20px 40px 20px;
+  display:block;
+
 }
 
 .chat{
