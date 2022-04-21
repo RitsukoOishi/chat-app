@@ -1,0 +1,63 @@
+<div class="wrapper">
+  <div class=side-bar>
+    <%= render "side_bar" %>
+
+    <div class="side-bar-header">
+      <div class = "name">吉田　舞</div>
+      <div class = "create-cat">チャットを作成する</div>
+    </div>
+    <div class = "side-bar-main">
+      <div class = "chat-room">
+        <a href = "#">チャットルーム1</a>
+      </div>
+      <div class = "chat-room">
+        <a href="#">チャットルーム2</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat">
+    <%= render "main_chat" %>
+
+    <div class = "chat-header">
+      <div class = "overview">
+        ほにゃらら
+      </div>
+      <div class = "edit">
+        <a href = "#">チャットを終了する</a>
+      </div>
+    </div>
+
+    <div class = "chat-main">
+      <div class = "tweet">
+        <div class = "tweet-upper">
+          <div class = "name2">吉田　舞</div>
+          <div class = "time">2022/4/20 (Wed) 22:45</div>
+        </div>
+        <div class = "tweet-lower">
+          <div class = "message">おはよう</div>
+        </div>
+      </div>
+      <div class = "tweet">
+        <div class = "tweet-upper">
+          <div class = "name2">剣持　詩織</div>
+          <div class = "time">2022/4/20 (Wed) 23:01</div>
+        </div>
+        <div class = "tweet-lower">
+          <div class = "message">こんばんは</div>
+        </div>
+      </div>
+    </div>
+
+    <div class = "chat-footer">
+        <div class= "form-input">
+          <input type="text" placeholder="type a message" style= "padding:10px;" class = "message-form">
+          <label class="form-image">
+            <span class="image-file">画像</span>
+            <input type="file" class = "hidden">
+          </label>
+        </div>
+          <input type = "submit" value = "送信" class = "send">
+    </div>
+  </div>
+</div>
