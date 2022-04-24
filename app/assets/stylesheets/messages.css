@@ -17,10 +17,12 @@
   justify-content: space-between;
 }
 
-.name{
+.name a{
   color:#FAFAFA;
   font-size: 16px;
+  text-decoration: none;
 }
+
 .create-cat{
   font-size:10px;
   color: deepskyblue;

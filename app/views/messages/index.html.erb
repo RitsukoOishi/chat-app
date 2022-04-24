@@ -3,7 +3,7 @@
     <%= render "side_bar" %>
 
     <div class="side-bar-header">
-      <div class = "name">吉田　舞</div>
+      <div class = "name"><%=link_to current_user.name, edit_user_path(current_user)%></div>
       <div class = "create-cat">チャットを作成する</div>
     </div>
     <div class = "side-bar-main">
