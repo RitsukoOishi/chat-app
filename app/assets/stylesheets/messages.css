@@ -28,19 +28,12 @@
   text-decoration: none;
 }
 
-.create-cat a{
+.create-room a{
   font-size:10px;
   color: deepskyblue;
   border: 1px solid lightblue;
   padding: 14px;
   text-decoration: none;
-}
-
-.side-bar-main{
-  height: calc(100vh - 100px);
-  background-color: #2F3E51;
-  padding: 0 20px;
-  overflow: scroll
 }
 
 .chat-room{
