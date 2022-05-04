@@ -2,24 +2,11 @@
   <div class=side-bar>
     <%= render "side_bar" %>
 
-    <div class="side-bar-header">
-      <div class = "name"><%=link_to current_user.name, edit_user_path(current_user)%></div>
-      <div class = "create-cat">チャットを作成する</div>
-    </div>
-    <div class = "side-bar-main">
-      <div class = "chat-room">
-        <a href = "#">チャットルーム1</a>
-      </div>
-      <div class = "chat-room">
-        <a href="#">チャットルーム2</a>
-      </div>
-    </div>
-  </div>
 
   <div class="chat">
     <%= render "main_chat" %>
 
-    <div class = "chat-header">
+    <%# <div class = "chat-header">
       <div class = "overview">
         ほにゃらら
       </div>
@@ -58,6 +45,6 @@
           </label>
         </div>
           <input type = "submit" value = "送信" class = "send">
-    </div>
+    </div> %>
   </div>
 </div>
