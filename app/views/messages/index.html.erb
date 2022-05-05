@@ -1,22 +1,8 @@
 <div class="wrapper">
   <div class=side-bar>
     <%= render "side_bar" %>
-
-    <div class="side-bar-header">
-      <div class = "name"><%=link_to current_user.name, edit_user_path(current_user)%></div>
-      <div class = "create-cat">
-        <%=link_to "チャットを作成する",new_room_path%>
-      </div>
-    </div>
-    <div class = "side-bar-main">
-      <% current_user.rooms.each do |room| %>
-      <div class = "chat-room">
-        <a href = "#"><%= room.name %></a>
-      </div>
-    </div>
-    <% end %>
   </div>
-
   <div class="chat">
     <%= render "main_chat" %>
   </div>
+</div>
